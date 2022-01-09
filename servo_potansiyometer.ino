@@ -3,7 +3,7 @@ int potPin = A0;
 Servo servo1;  
 int pos = 0;   
 void setup() {
-  servoM.attach(9);  
+  servo1.attach(9);  
 }
 void loop() {
   pos = analogRead(potPin);
